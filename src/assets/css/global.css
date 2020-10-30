@@ -8,9 +8,11 @@ div {
 html,body,#app{
     height:100%;
     font-size:14px;
-   
+    box-sizing: border-box;
 }
 body{
     box-sizing: border-box;
-    border:1px solid darkorchid
+}
+.el-card{
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.1) !important;
 }

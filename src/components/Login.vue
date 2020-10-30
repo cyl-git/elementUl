@@ -29,6 +29,8 @@
 <script>
 export default {
   data() {
+    //校验邮箱的自定义校验规则
+
     return {
       loginForm: {
         username: 'admin',
