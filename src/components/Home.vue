@@ -10,7 +10,7 @@
       </h3>
       <el-button size="mini" type="primary" @click="logout">退出</el-button>
     </el-header>
-    <el-container>
+    <el-container style="overflow: hidden">
       <!-- 侧边栏 -->
       <el-aside :width="isCollapse ? '64px' : '200px'">
         <div class="togBut" @click="toggleCollapse">|||</div>
@@ -138,6 +138,7 @@ export default {
   background-color: #f7f7f7;
   color: #333;
   padding: 10px;
+  overflow-y: scroll;
 }
 .el-menu {
   border-right: none;
