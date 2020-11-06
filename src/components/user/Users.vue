@@ -315,7 +315,7 @@ export default {
       this.editDialogVisible = true
     },
     //编辑用户信息提交按钮
-    editUserSubbit(id) {
+    editUserSubbit() {
       this.$refs.editFormRef.validate((valid, val) => {
         console.log(valid)
         console.log(val)

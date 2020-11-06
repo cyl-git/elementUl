@@ -4,6 +4,7 @@ import router from './router'
 import axios from 'axios'
 import './plugins/element.js'
 import './assets/css/global.css'
+import TreeTable from 'vue-table-with-tree-grid'
 Vue.prototype.$http = axios
 
 //配置后端接口的路径
@@ -13,7 +14,7 @@ axios.interceptors.request.use(config => {
     return config
 })
 Vue.config.productionTip = false
-
+Vue.component('tree-table', TreeTable)
 new Vue({
     router,
     render: h => h(App)
