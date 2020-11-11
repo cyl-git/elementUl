@@ -17,3 +17,13 @@ body{
 .el-card{
     box-shadow: 0px 1px 1px rgba(0,0,0,0.1) !important;
 }
+.el-steps{
+    width:80%;
+    margin:0 auto
+}
+.el-step__title{
+    font-size:14px;
+}
+.ql-editor {
+    min-height: 300px;
+  }
